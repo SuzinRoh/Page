@@ -40,7 +40,8 @@
             margin: 0; padding: 0; 
             width: 100%;
             font-family: 'Roboto', sans-serif;
-            font-family: 'Noto Sans JP', sans-serif;
+            
+            
         }
         #root{
             background-color: antiquewhite;
@@ -51,6 +52,11 @@
         }
          /*background end*/
 
+        /* main */
+        #main{
+           
+            background-color:aliceblue;
+        }
         /*head*/
         .head-container{
             display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: flex-center; align-content: center;
@@ -68,11 +74,34 @@
         }
         /*heade*/
 
+        .len-jp{
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 20px;font-weight: 200;
+        }
+        .len-en{
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;font-weight: 200;
+        }
+
+        
+        /*main end */
+
+
+        /*about*/
+        #about{
+
+            background-color:cornsilk;
+
+        }
+        /*  about end */
+
+
         /* work */
         #work{
             display: flex; flex-wrap: wrap; flex-direction: column;justify-content: space-evenly; align-items: flex-center; align-content: center;
             background-color: darkgrey;
             height: 500px;
+            font-size: 20px;font-weight: 200;
         }
         /* work end */
     </style>
@@ -95,13 +124,25 @@
             </div>
             <!-- head end -->
             <div class="main-container">
-                <p>I'm Designer and Developer.</p>
-                <p>いったんはデザインも開発もしてますね、よろしくお願いいたします。</p>
+
+                <div class=tmp>
+                    <p class=len-en> I'm Designer and Developer.</p>
+                    <p class=len-jp>いったんはデザインも開発もしてますね、よろしくお願いいたします。</p>
+                 </div>
             </div>
         </div>
         <!-- main end -->
+        <!-- about  -->
+        <div id="about">
 
-        <div id="about"> hi</div>
+            <div class="">
+
+                <p>こんにちは、ノスジンと申します。</p>
+            </div>
+        </div>
+
+        <!-- about end   -->
+
         <div id="work"> 
             <h2>Work</h2>
             <p>申し訳ございません、まだまだ準備中でございます。<br>
@@ -110,15 +151,11 @@
         
         
         </div>
-        <div id="contact"> hi </div>
+        <div id="contact"> 
+            <div><a href="suuz.hha@gmail.com">suuz.hha@gmail.com</div>
+            <div><a href="https://github.com/SuzinRoh">git</div>
+        </div>
 
-        <footer>
-            <div>
-
-
-                <div><a href="https://github.com/SuzinRoh">git</div>
-            </div>
-        </footer>
 
 
 
