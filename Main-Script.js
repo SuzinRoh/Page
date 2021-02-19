@@ -8,7 +8,7 @@ function handleClick() {
    if(!btn.classList.contains(NAME)){
         menu.style.right = '0';
         btn.style.right = '0';
-        btn.style.color = 'rgb(66, 132, 255)';
+        btn.style.color = 'rgb(94, 66, 255)';
         btn.classList.add('clicked');
         btn.innerHTML = '<span><i class="far fa-dizzy fa-lg"></i></span>';
    } else{
