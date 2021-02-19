@@ -30,7 +30,7 @@ html {scroll-behavior: smooth;}
  body{ 
      margin: 0; padding: 0; 
      width: 100%;
-     font-family: 'Roboto Mono', monospace;
+     font-family: 'Roboto', sans-serif;
      
      
  }
@@ -51,32 +51,49 @@ html {scroll-behavior: smooth;}
  }
  /*left -navigation */
 .nav{
+    padding:0!important; 
     display: flex; flex-direction: column; align-items: flex-end;flex-wrap: wrap; justify-content: space-evenly;
 }
 .right-nav{
-    position:fixed; top:20%; right: 0;
-
+    display: flex; align-items: center;
+    position:fixed; top:0; right: 0;
+    height: 100%;
 }
 .nav-items{
-    padding:20px 5px 20px 0px; 
+    position: relative;
+    text-align: right;
+    padding:20px 20px 20px 0px; 
     font-size: 20px;font-weight: 100;
-    
+    transition: all .3s ease-in-out;
 }
 .nav-items a{
-    transition: all .2s ease-in-out;
+    transition: all .0s ease-in-out;
 }
 .nav-items a:hover{
     color:rgb(66, 132, 255);font-weight:400;
 }
+.nav-button{
+    position: relative;
+    transition: color .05s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding:20px;
+}
 
  /*left -nav end */
+ 
  /*head*/
  .head-container{
-     display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: flex-center; align-content: center;
-     background-color: rgb(161, 131, 90);
-     height: 140px;
-     font-size: 35px; font-weight: 800;
-
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;; align-content: center;
+    background-color: white;
+    height: 70px;
+    font-size: 26px; font-weight: 600;
+ }
+ .head-container div{
+   padding-left: 10%;padding-right: 2%;
+}
+.head-container a{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
  }
  
  /*heade*/
