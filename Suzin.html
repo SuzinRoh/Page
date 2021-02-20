@@ -7,22 +7,24 @@
     <title>SujinRoh</title>
     <!-- awesomeicon -->
     <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-a11y="true"></script>
+    <!--refreshing scroll position-->
+    <script>history.scrollRestoration = "manual"</script>
     <link rel="stylesheet" href="./Main_Style.css" >
-    <script  src="./Main-Script.js" ></script>
+   
     <style>
        
     </style>
 </head>
 <body>   
     <div id="root">
-
+        
         <!-- main-->
         <div id="main">
             <!-- nav -->
             <div class="right-nav">
                     <!---->
-                    <div class=nav-button style="right: -90px;"><span><i class="far fa-smile fa-lg"></i></span></div>
-                    <div class="nav-items nav" style="right: -90px;">
+                    <div class="nav-button showBtn" ><div class="image smile-img" ></div></div>
+                    <div class="nav-items nav" style="right: -110px;">
                         <div class="nav-items"><a href="#about">About</a></div>
                         <div class="nav-items"><a href="#work">Work</a></div>
                         <div class="nav-items"><a href="#contact">Contact</a></div>
@@ -34,18 +36,15 @@
             </div>
             <!-- head end -->
             <div class="main-container">
-
-                <div class=tmp>
-                    <!--<p class=len-en> I'm Designer and Developer.</p>-->
-                    <p class=len-jp>いったんはデザインも開発もしてます、よろしくお願いいたします。</p>
-                 </div>
+                <div class=main-text><h2 >Hi</h2></div> 
+                <div class=main-img><img style="width: 500px;" src="./key_2.png"></div>
             </div>
         </div>
         <!-- main end -->
         <!-- about  -->
         <div id="about">
             <div class="about-img">
-                <img class=me src="/Users/sujin/Documents/ing/icon.png">
+                <img class=me src="./icon.png">
             </div>
             <div class="about-text">
                 <p>Hi, Im Sujin </p>
@@ -62,9 +61,7 @@
 
         <div id="work"> 
             <h2>Work</h2>
-            <p>申し訳ございません、まだまだ準備中でございます。<br>
-                少々お待ちください。。。
-            </p> 
+           
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
                 Animi laborum error architecto quibusdam nesciunt nemo<br>
                 apiente aliquid assumenda, nam dignissimos! Nesciunt, <br>
@@ -108,4 +105,5 @@
         <div>copyright(c) SujinRoh 2021 All rights reserved</div>
     </div>
 </body>
+<script src="./Main-Script.js"></script>
 </html>
