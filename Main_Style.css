@@ -135,7 +135,7 @@ html {scroll-behavior: smooth;}
      height: 620px;
 } 
 .main-text{
-     position: relative; z-index:3; top:190px;
+     position: relative; z-index:3; top:45%;
      width:100%;
 }
 .main-text h1{
@@ -149,8 +149,8 @@ html {scroll-behavior: smooth;}
      text-align: left;
 }
 .main-img{
-     position: relative; z-index: 2;top:-50px; 
-     /*background-color:darkgrey;*/ width:95%;
+     position: relative; z-index: 2;top:-8%; 
+     /*background-color:darkgrey;*/ width:86%;
     
      
      
