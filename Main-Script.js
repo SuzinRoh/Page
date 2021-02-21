@@ -40,10 +40,8 @@ window.addEventListener('scroll', function ( event ) {
 	});
 
 }, false);
-/*var scrollStop = function (callback) {
-   
-}
-scrollStop(function () {
-    
-    console.log( 'Scrolling has stopped.' );
-});*/
+
+
+window.addEventListener('load', function(event) {
+     document.querySelector('.main-text-area').style.opacity = '100%';
+}); 
