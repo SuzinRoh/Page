@@ -41,7 +41,38 @@ window.addEventListener('scroll', function ( event ) {
 
 }, false);
 
-
+//main text enent 
 window.addEventListener('load', function(event) {
      document.querySelector('.main-text-area').style.opacity = '100%';
-}); 
+},false); 
+
+//japanese cherecter event
+const txt =document.querySelector('#txt');
+const txt_2 =document.querySelector('#txt_2');
+
+function MainClick(){
+     txt.style.opacity="0%";
+     txt_2.style.opacity="0%";
+     setTimeout(function() {
+         txt.classList.add('jp');
+         txt_2.classList.add('jp_sub');
+         txt.innerHTML = "こんにちは、私はノスジンと申します。<br>開発者でデザイナーです。";
+         txt_2.innerHTML = "フルスタック開発者になるために努力しています。";
+         txt.style.opacity="100%";
+         txt_2.style.opacity="100%";
+       }, 1000);
+     setTimeout(function() {
+         txt.style.opacity="0%";
+         txt_2.style.opacity="0%";
+         setTimeout(function() {
+         txt.classList.remove('jp');
+         txt_2.classList.remove('jp_sub');
+         txt.innerHTML = "Hi,I am SUJIN ROH .<br>developer and designer";
+         txt_2.innerHTML = "I'm working hard to be a full stack developer.";
+         txt.style.opacity="100%";
+         txt_2.style.opacity="100%";
+         }, 1000);   
+     },3000);
+}
+txt.addEventListener("click", MainClick, false);
+
