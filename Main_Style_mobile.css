@@ -52,18 +52,28 @@
     #about{
         display: flex; flex-direction: column; justify-content: center;
     }
+    .about-title{
+        margin: 0;
+    }
     .about-container{
         display: flex; flex-direction: column; justify-content: center;align-items: center;
    }
     .about-contents{
         display:flex; flex-direction: column; justify-content: center; align-items: center;
     }
+    .about-contents-text{
+        width: 300px;
+    }
+    .about-background{
+       margin-bottom: 350px;
+    }
     .about-background-maru{
-        position: relative;z-index: -1; top:-50px;
-        width: 300px; height: 300px;
-        border-radius: 100%;
+        position: relative;z-index: -1; top:0px;
+        width: 350px; height: 370px;
+        border-radius: 250px 250px 250px 250px;
         background-color:rgb(226, 226, 226);
    }
+   
     #work{
     }
     #contact{

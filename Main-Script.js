@@ -47,8 +47,8 @@ window.addEventListener('load', function(event) {
 },false); 
 
 //japanese cherecter event
-const txt =document.querySelector('#txt');
-const txt_2 =document.querySelector('#txt_2');
+const txt = document.querySelector('#txt');
+const txt_2 = document.querySelector('#txt_2');
 
 function MainClick(){
      txt.style.opacity="0%";
@@ -75,4 +75,29 @@ function MainClick(){
      },3000);
 }
 txt.addEventListener("click", MainClick, false);
+
+
+const aboutTxtEn = document.querySelector('.about-con-txt-en');
+const aboutTxtJp = document.querySelector('.about-con-txt-jp');
+function handleClickAbout(){
+     aboutTxtEn.style.opacity="0%";
+     aboutTxtJp.style.opacity="100%";
+     setTimeout(function() {
+          aboutTxtEn.classList.remove('show');
+          aboutTxtEn.classList.add('hide');
+          aboutTxtJp.classList.remove('hide');
+          aboutTxtJp.classList.add('show');
+       }, 1000);
+      setTimeout(function() {
+          aboutTxtJp.style.opacity="0%";
+          aboutTxtEn.style.opacity="100%";
+          setTimeout(function() {
+          aboutTxtJp.classList.remove('show');
+          aboutTxtJp.classList.add('hide');
+          aboutTxtEn.classList.remove('hide');
+          aboutTxtEn.classList.add('show');
+         }, 1000);   
+     },5000);
+}
+aboutTxtEn.addEventListener("click", handleClickAbout, false);
 

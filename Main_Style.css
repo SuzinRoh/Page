@@ -7,6 +7,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*font-family: 'Roboto', sans-serif;*/
  /*font end */
 
+ /* javacript event class*/
+ .hide{
+     display: none;
+    }
+ .show{
+     display: inline;
+}
+ /* js class end */
 
  /* html tag */
  a:link { color: black; text-decoration: none;}
@@ -153,7 +161,8 @@
      position: relative;  z-index: 1;
      display:flex; justify-content: center; align-items: center; flex-direction: column;
      height: 500px; 
-     background-color: rgb(245, 245, 245);
+     /*background-color: rgb(245, 245, 245);*/
+     background: linear-gradient( to bottom,  rgb(245, 245, 245),rgb(236, 244, 253));
      /*box-shadow: 15px 10px 10px -10px rgba(200,200,200,0.3);*/
     /* min-width: 300px; */ border-radius:0 0 500px 500px  ;
     
@@ -219,15 +228,31 @@
 .about-contents{
      display:flex;  justify-content: center; align-items: center;
      padding: 10px;
-     
 }
 .about-contents-text{
      /*background-color: thistle;*/
+     color:black;
+     position: relative ; z-index: 1;
      padding:10px;margin:0;
-     font-size: 20px; text-align: left;
-     line-height: 39px;
-    /* width: 300px;*/
-     letter-spacing: 0px;
+     font-size: 20px;font-weight: 200; text-align: left;
+     line-height: 43px;
+     width: 350px;
+     /*letter-spacing: px;*/
+}
+@media (hover: hover) and (pointer: fine) {
+	.about-contents-text:hover {
+          color:rgb(7, 143, 255);
+          transition: color 0.2s ease-in-out;
+      }
+}
+.about-con-txt-en, .about-con-txt-jp{
+     transition:opacity .3s ease-in-out;
+}
+.about-con-txt-jp{
+     font-family: 'Noto Sans JP', sans-serif;
+     font-size :18px!important;
+     font-weight:300!important; 
+     line-height:20px!important;
 }
 .about-background{
      position: absolute;
@@ -236,7 +261,8 @@
      position: relative;z-index: -1; top:-55px;
      width: 550px; height: 550px;
      border-radius: 100%;
-     background-color:rgb(236, 236, 236);
+     background: linear-gradient( to bottom,rgb(237, 242, 248), rgb(233, 236, 241) );
+ /* background-color:rgb(236, 236, 236);*/
 }
 
  /*  about end */
