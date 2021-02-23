@@ -273,26 +273,40 @@
  /* work */
  #work{
      display: flex; flex-direction: column;justify-content: space-evenly; align-items: flex-center; align-content: center;
-     background-color: darkgrey;
+     background: linear-gradient( to bottom, rgb(248, 248, 248),rgb(202, 214, 228) );
+     border-radius: 500px 500px 0px 0;
      height: 500px;
      font-size: 20px;font-weight: 200;
+     margin-top: 100px;
+     padding: 50px;
+ }
+ .work-404 img{
+      width: 60%;
  }
  /* work end */
  
  /*  footer*/
 footer{
-     margin: 70px 30px 30px 30px;
-     padding:10px;
-     color: rgb(165, 165, 165); 
+     background-color: rgb(202, 214, 228);
+     padding: 70px 30px 30px 30px;
+     
+     
      font-size:12px;font-weight: 100;
 }
 .social{
      padding: 20px;
      display: flex; justify-content: center;align-items: center; align-content: center;
 }
+.social a{
+     padding: 5px;
+}
 .social-git{
-     width: 20px; height: 20px;
+     width: 25px; height: 25px;
      background-image: url("./icon/github.svg");
+}
+.social-gmail{
+     width: 25px; height: 25px;
+     background-image: url("./icon/gmail.svg");
 }
  /*  footer end */
 
