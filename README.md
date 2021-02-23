@@ -1,8 +1,8 @@
 # Portfolio_Page
 ####  PortfolioPage
 >
->
->　進行しています。。
+> フロントエンドウェブデザインのフォトポリオページ制作中です
+>　
 >　
 
 <a href="https://suzinroh.github.io/Page/Suzin.html"> page here</a>
