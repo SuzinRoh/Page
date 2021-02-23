@@ -162,10 +162,13 @@
      opacity: 0; 
      transition: opacity 1.2s ease-in;
 }
-.main-text-area:hover {
-    /*color: tomato; */color:rgb(7, 143, 255);
-    transition: color 0.2s ease-in-out;
+@media (hover: hover) {
+	.main-text-area:hover {
+          /*color: tomato; */color:rgb(7, 143, 255);
+          transition: color 0.2s ease-in-out;
+      }
 }
+
 .main-txt-H1{
      transition:opacity .3s ease-in-out;
      font-size: 50px;padding-right: 200px;
