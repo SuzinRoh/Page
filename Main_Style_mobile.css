@@ -1,6 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     
-    .main-text-area:hover { color: red; text-decoration: underline; }
+      .main-text-area:hover { /*color: tomato; */color:black; }
+   
    
     .jp{
         transition:opacity .3s ease-in-out;
