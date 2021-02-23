@@ -76,6 +76,12 @@
    
     #work{
     }
+    .work-404{
+        width: 100%;
+    }
+    .work-404 img{
+        width: 100%;
+   }
     #contact{
     }
     .me{
