@@ -162,7 +162,7 @@
      opacity: 0; 
      transition: opacity 1.2s ease-in;
 }
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
 	.main-text-area:hover {
           /*color: tomato; */color:rgb(7, 143, 255);
           transition: color 0.2s ease-in-out;
