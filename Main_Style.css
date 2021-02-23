@@ -162,7 +162,7 @@
      display:flex; justify-content: center; align-items: center; flex-direction: column;
      height: 500px; 
      /*background-color: rgb(245, 245, 245);*/
-     background: linear-gradient( to bottom,  rgb(245, 245, 245),rgb(236, 244, 253));
+     background: linear-gradient( to bottom,  rgb(245, 245, 245),rgb(235, 244, 255));
      /*box-shadow: 15px 10px 10px -10px rgba(200,200,200,0.3);*/
     /* min-width: 300px; */ border-radius:0 0 500px 500px  ;
     
@@ -219,6 +219,7 @@
     display: flex; flex-direction: column; justify-content: center;
  }
 .about-container{
+     
      display: flex; flex-direction: row; justify-content: center;
 }
 .about-title{
@@ -237,7 +238,7 @@
      font-size: 20px;font-weight: 200; text-align: left;
      line-height: 43px;
      width: 350px;
-     /*letter-spacing: px;*/
+     
 }
 @media (hover: hover) and (pointer: fine) {
 	.about-contents-text:hover {
@@ -250,6 +251,7 @@
 }
 .about-con-txt-jp{
      font-family: 'Noto Sans JP', sans-serif;
+     letter-spacing: -1px;
      font-size :18px!important;
      font-weight:300!important; 
      line-height:20px!important;
@@ -276,6 +278,23 @@
      font-size: 20px;font-weight: 200;
  }
  /* work end */
+ 
+ /*  footer*/
+footer{
+     margin: 70px 30px 30px 30px;
+     padding:10px;
+     color: rgb(165, 165, 165); 
+     font-size:12px;font-weight: 100;
+}
+.social{
+     padding: 20px;
+     display: flex; justify-content: center;align-items: center; align-content: center;
+}
+.social-git{
+     width: 20px; height: 20px;
+     background-image: url("./icon/github.svg");
+}
+ /*  footer end */
 
 
 
