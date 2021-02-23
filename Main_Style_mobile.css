@@ -1,5 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    body{
+        height: 100%;
+    }
     .jp{
         transition:opacity .3s ease-in-out;
         font-family: 'Noto Sans JP', sans-serif;
