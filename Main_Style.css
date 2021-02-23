@@ -86,7 +86,7 @@
 .nav-items a{
      transition: all .2s ease-in-out;
 }
-.nav-items a:hover ,.nav-items:active{
+.nav-items a:hover {
      transition: all .2s ease-in-out;
      color:rgb(80, 176, 255);
      font-weight:600;
@@ -162,7 +162,7 @@
      opacity: 0; 
      transition: opacity 1.2s ease-in;
 }
-.main-text-area:hover , .nav-items:active{
+.main-text-area:hover {
     /*color: tomato; */color:rgb(7, 143, 255);
     transition: color 0.2s ease-in-out;
 }
