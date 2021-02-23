@@ -51,13 +51,11 @@
      
  }
  #root{
-   
      /*background-color: antiquewhite;*/
      margin:0px;
      /*padding-right: 10%;padding-left: 10%;*/
      display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; 
      text-align: center;
-    
  }
   /*background end*/
 
@@ -122,14 +120,16 @@
  
  /*head*/
 .head-container{
-     display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; align-content:center;
+     display: flex; justify-content: space-between; align-items: center; align-content:center;
      background-color: white;
-     height: 100px;
+     height: 120px;
      font-size: 36px; font-weight: 600;
      transition:all .3s ease-in-out;
+     
  }
 .head-container div{
      padding-left: 10%;padding-right: 2%;
+   
 }
 .head-container a{
      font-family: 'Noto Sans JP', sans-serif;
@@ -201,13 +201,45 @@
 
  /*about*/
  #about{
-
     /* background-color:cornsilk;*/
-
+    display: flex; flex-direction: row; justify-content: center;
  }
+.about-contents{
+     display: flex; flex-direction: column; justify-content: center; align-items: center;
+     
+     padding: 10px;
+}
+.about-btn{
+     display: flex; flex-direction: row;
+     /*background-color: tomato;*/
+     justify-content: center;
+     margin-left: 100px;margin-right: 100px;
+}
+.about-btn div{
+     padding-left:5px;padding-right: 5px;
+}
+.lenBtn{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400; color: white;
+     letter-spacing: 1px;
+     border: none;
+     border-radius: 10px 10px 0 0 ;
+     padding: 5px 15px 3px 15px;
+     background-color:#004666;
+}
+.about-text{
+
+     background-color: thistle;
+     padding-left: 20px;padding-right: 20px;
+     width: 400px;
+}
+
+
+
+
  /*  about end */
 
-/*dd*/
+
  /* work */
  #work{
      display: flex; flex-direction: column;justify-content: space-evenly; align-items: flex-center; align-content: center;
