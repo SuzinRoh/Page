@@ -17,10 +17,12 @@
        width: 100%;
        overflow: hidden;
     }
-    .nav-button , .nav-items{
-        display: none;
-        visibility: hidden;
-    }   
+    .nav-button {
+       
+    }  
+    .nav-items{
+       
+    } 
     #main{
         width: 100%;
         align-items: center;
@@ -45,7 +47,7 @@
    
     .main-img{
         margin: 0;padding: 0;
-        width: 100%;
+        width: 103%;
     }
     #about{
         display: flex; flex-direction: column; justify-content: center;
