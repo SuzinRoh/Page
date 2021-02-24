@@ -9,12 +9,12 @@ function handleClick() {
    let NAME = 'clicked';
 
    if(!navbtn.classList.contains(NAME)){
-        menu.style.right = '10px';
+        menu.style.right = '0px';
         navbtn.classList.add('clicked');
         icon.classList.remove('smile-img');
         icon.classList.add('dizzy-img');
    } else {
-        menu.style.right = '-110px';
+        menu.style.right = '-120px';
         navbtn.classList.remove('clicked');
         icon.classList.remove('dizzy-img');
         icon.classList.add('smile-img');
