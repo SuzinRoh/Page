@@ -81,21 +81,27 @@ const aboutTxtEn = document.querySelector('.about-con-txt-en');
 const aboutTxtJp = document.querySelector('.about-con-txt-jp');
 function handleClickAbout(){
      aboutTxtEn.style.opacity="0%";
-     aboutTxtJp.style.opacity="100%";
      setTimeout(function() {
           aboutTxtEn.classList.remove('show');
           aboutTxtEn.classList.add('hide');
           aboutTxtJp.classList.remove('hide');
           aboutTxtJp.classList.add('show');
-       }, 1000);
-      setTimeout(function() {
-          aboutTxtJp.style.opacity="0%";
-          aboutTxtEn.style.opacity="100%";
+          aboutTxtJp.style.opacity="0";
           setTimeout(function() {
-          aboutTxtJp.classList.remove('show');
-          aboutTxtJp.classList.add('hide');
-          aboutTxtEn.classList.remove('hide');
-          aboutTxtEn.classList.add('show');
+                aboutTxtJp.style.opacity="100%";
+          }, 400);   
+       }, 1000);
+     
+      setTimeout(function() {
+          aboutTxtJp.style.opacity="0";
+          setTimeout(function() {
+               aboutTxtJp.classList.remove('show');
+               aboutTxtJp.classList.add('hide');
+               aboutTxtEn.classList.remove('hide');
+               aboutTxtEn.classList.add('show');
+               setTimeout(function() {
+                    aboutTxtEn.style.opacity="100%";
+               },400);   
          }, 1000);   
      },5000);
 }
