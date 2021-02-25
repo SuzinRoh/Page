@@ -1,3 +1,4 @@
+history.replaceState({},null,location,pathname);
 
 //변수
 const navbtn = document.querySelector('.nav-button');
@@ -42,8 +43,9 @@ window.addEventListener('scroll', function ( event ) {
 }, false);
 
 //main text enent 
+const mainTxtArea =  document.querySelector('.main-text-area');
 window.addEventListener('load', function(event) {
-     document.querySelector('.main-text-area').style.opacity = '100%';
+     mainTxtArea.style.opacity = '100%';
 },false); 
 
 //japanese cherecter event
@@ -107,3 +109,7 @@ function handleClickAbout(){
 }
 aboutTxtEn.addEventListener("click", handleClickAbout, false);
 
+mainTxtArea.addEventListener("mouseover",function(){
+     
+
+})
