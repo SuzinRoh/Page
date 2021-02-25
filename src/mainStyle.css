@@ -65,12 +65,12 @@
 }
 .smile-img {
     width: 20px; height: 20px;
-    background-image: url("./icon/smile.svg");
+    background-image: url("/Page/icon/smile.svg");
 
 }
 .dizzy-img {
     width: 20px; height: 20px;
-    background-image: url("./icon/dizzy.svg");
+    background-image: url("/Page/icon/dizzy.svg");
 }
 .hideBtn {
      opacity: 0%;
