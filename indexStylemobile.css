@@ -1,0 +1,119 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');/*font-family: 'Roboto Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); /*font-family: 'Roboto', sans-serif;*/
+/*font end */
+/*      */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    body{
+        height: 100%;
+        
+    }
+    .jp{
+        transition:opacity .3s ease-in-out;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 19px!important;font-weight: 700!important;
+        margin:0!important;
+    }
+    .jp_sub{
+        transition:opacity .3s ease-in-out;
+        font-family: 'Noto Sans JP', sans-serif;
+        padding-top: 0px; margin:0!important;
+        font-size: 15px!important;font-weight: 400!important;
+    }
+    #root{
+       margin: 0;padding: 0;
+       width: 100%;
+       overflow: hidden;
+    }
+    .right-nav{
+        height: 100%; justify-content: flex-start;
+    }
+    .nav-button {
+       top:-330px; margin:25px;
+    }  
+    
+    .nav{
+        height: 100%;
+        background-color:rgb(245, 249, 255);
+        box-shadow: -2px 0px 10px 2px rgba(206, 229, 255, 0.3);
+    }
+    .nav-items{
+       font-size: 20px;font-weight: 300;
+       justify-content: flex-start;
+    } 
+    .nav-items a{
+        color: black;
+     } 
+    #main{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .main-container{
+    }
+    .main-text-area{
+        text-align: center;
+        margin:0;
+        right: 0;
+    }
+    .main-text-area h1{
+       padding: 0;
+       font-size: 30px;
+       letter-spacing: 1px;
+    }
+    .main-text-area p{
+        padding: 0; padding-top: 10px;
+        font-size: 22px;
+     }
+   
+    .main-img{
+        margin: 0;padding: 0;
+        width: 103%;
+    }
+    #about{
+        display: flex; flex-direction: column; justify-content: center;
+    }
+    .about-img{
+        background-color: none;
+   }
+    .about-title{
+        margin: 0;
+    }
+    .about-container{
+        display: flex; flex-direction: column; justify-content: center;align-items: center;
+   }
+    .about-contents{
+        display:flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+    .about-contents-text{
+        width: 300px;
+    }
+    .about-background{
+       margin-bottom: 350px;
+    }
+    .about-background-maru{
+        position: relative;z-index: -1; top:0px;
+        width: 350px; height: 370px;
+        border-radius: 250px 250px 250px 250px;
+        background-color:rgb(226, 226, 226);
+   }
+   
+    #work{
+        margin-top:0px;
+    }
+    .work-404{
+        width: 100%;
+    }
+    .work-404 img{
+        width: 100%;
+   }
+    #contact{
+    }
+    .me{
+        width: 350px;
+    }
+
+}
