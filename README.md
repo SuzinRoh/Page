@@ -7,4 +7,4 @@
 >　
 >　
 
-<a href="https://suzinroh.github.io/Page/Suzin.html"> page here</a>
+<a href="https://suzinroh.github.io/Page//Suzin.html"> page here</a>
