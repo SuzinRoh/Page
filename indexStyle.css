@@ -263,6 +263,10 @@
 .about-background{
      position: absolute;
 }
+.me{
+     width: 400px;
+     border-radius: 30px;
+}
 .about-background-maru{
      position: relative;z-index: -1; top:-55px;
      width: 580px; height: 580px;
