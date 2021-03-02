@@ -29,6 +29,9 @@
        overflow: hidden;
     }
     .right-nav{
+        display: none;
+    }/*
+    .right-nav{
         height: 100%; justify-content: flex-start;
     }
     .nav-button {
@@ -46,7 +49,7 @@
     } 
     .nav-items a{
         color: black;
-     } 
+     }*/
     #main{
         width: 100%;
         align-items: center;

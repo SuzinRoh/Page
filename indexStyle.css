@@ -133,7 +133,7 @@
  /*head*/
 .head-container{
      display: flex; justify-content: space-between; align-items: center; align-content:center;
-     background-color: rgb(245, 245, 245);
+     background-color: rgb(229, 236, 245);
      height: 120px;
      font-size: 36px; font-weight: 600;
      transition:all .3s ease-in-out;
@@ -165,9 +165,9 @@
      display:flex; justify-content: center; align-items: center; flex-direction: column;
      height: 500px; 
      /*background-color: rgb(245, 245, 245);*/
-     background: linear-gradient( to bottom,  rgb(245, 245, 245),rgb(235, 244, 255));
+     background: linear-gradient( to bottom,  rgb(229, 236, 245),rgb(255, 255, 255));
      /*box-shadow: 15px 10px 10px -10px rgba(200,200,200,0.3);*/
-    /* min-width: 300px; */ border-radius:0 0 500px 500px  ;
+    /* min-width: 300px; border-radius:0 0 500px 500px  ;*/ 
     
 } 
 .main-text-area{
