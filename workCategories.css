@@ -10,6 +10,7 @@
 #work{
    height: 100%!important;
    background:transparent!important;
+   padding-left: 10%;padding-right: 10%;
    
 }
 .work-portfolio{
@@ -32,11 +33,14 @@
     display: flex; flex-direction: row; align-items: flex-start; justify-content: center;
    /* background-color: cadetblue;*/
     /*overflow: hidden;*/
+    padding: 0;
     line-height: 35px;
 }
 .work-info{
-    font-size: 15px;font-weight: 800;
-    color: rgb(163, 163, 163);
+    font-size: 20px;font-weight: 900;
+    color: rgb(45, 129, 255);
+    letter-spacing: 2px;
+    padding-bottom: 20px;
 }
 /*
 .work-index-list{
@@ -47,7 +51,6 @@
 }*/
 .work-contents{
     display: flex; flex-direction:column;align-items: center; justify-content: center;
-    padding-left: 10px;
     text-align: left;
 }
 .work-contents-element{
@@ -59,7 +62,6 @@
     display: flex; flex-direction:column;
  }
 .element-explain{
-    padding-top: 50px;
     font-size: 20px; font-weight: 100;
 }
 .brand{
@@ -67,16 +69,19 @@
 .do{
     padding-top: 20px;
     margin: 0;
-    text-align: left;
+   
     overflow: hidden;
+}
+h1{
+    margin: 0; 
 }
 .brand{
     padding-top: 20px;
     margin: 0;
-    text-align: left;
+   
     overflow: hidden;
 }
 img{
-    width: 85%;
+    width: 100%;
     padding-left: 2%;
 }

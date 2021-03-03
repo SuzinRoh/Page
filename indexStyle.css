@@ -302,7 +302,6 @@
  .work-categories-des,.work-categories-dev{
      position: relative; z-index:10;
      width: 300px; top:250px;
-     background-color: rgb(20, 20, 53);
    
  }
  @media (hover: hover) and (pointer: fine) {
@@ -315,9 +314,8 @@
       }
 }
  .work-categories-des a,.work-categories-dev a{
-     
-     color: white;
-  
+     font-size: 35px; font-weight: 800;
+     text-decoration: underline;
  }
  .work-title{
      font-size: 40px;font-weight: 500;/*color:rgb(28, 126, 255);*/
@@ -326,10 +324,9 @@
  .work-404{
      z-index: 5;
      position: relative;
-     top:50px;
  }
  .work-404 img{
-      width: 50%;
+      width: 70%;
  }
  /* work end */
  
@@ -381,6 +378,16 @@ footer{
 .social-gmail{
      width: 25px; height: 25px;
      background-image: url("./icon/gmail.svg");
+}
+
+.top{
+     position: fixed;
+     font-size: 30px;
+     font-weight: 500;
+     bottom: 10px;
+}
+.top a{
+     color: white;
 }
  /*  footer end */
 
