@@ -12,6 +12,13 @@
    background:transparent!important;
    
 }
+.work-portfolio{
+    display: flex; flex-direction: row; align-items: flex-start; justify-content: center;
+    padding-left: 10%;padding-right: 10%;
+}
+.work-index-list{
+    display: none;
+}
 .work-categories{
     padding-bottom: 50px;
 }
@@ -20,25 +27,26 @@
 }
 .co-b , .co-d{
     font-weight: 500;
-    padding:0px 20px 0px 20px;
 }
 .work-portfolio{
     display: flex; flex-direction: row; align-items: flex-start; justify-content: center;
    /* background-color: cadetblue;*/
     /*overflow: hidden;*/
+    line-height: 35px;
 }
 .work-info{
     font-size: 15px;font-weight: 800;
     color: rgb(163, 163, 163);
 }
+/*
 .work-index-list{
     background-color: coral;
     height: 100%;
     padding-left: 20px;padding-bottom: 20px;
     font-size: 18px; font-weight: 800;
-}
+}*/
 .work-contents{
-    display: flex; flex-direction:column;
+    display: flex; flex-direction:column;align-items: center; justify-content: center;
     padding-left: 10px;
     text-align: left;
 }
@@ -46,19 +54,29 @@
     display: flex; flex-direction:column; align-items: center; justify-content: center;
     /* background-color: brown;*/
     overflow: hidden;
-    width: 95%;
-    padding-left: 20px;padding-right: 20px;
+    width: 100%;
+    margin: 0;
     display: flex; flex-direction:column;
  }
 .element-explain{
-    text-align: left;padding-top: 50px;
-    font-size: 15px; font-weight: 100;
+    padding-top: 50px;
+    font-size: 20px; font-weight: 100;
 }
 .brand{
 }
 .do{
     padding-top: 20px;
+    margin: 0;
+    text-align: left;
+    overflow: hidden;
+}
+.brand{
+    padding-top: 20px;
+    margin: 0;
+    text-align: left;
+    overflow: hidden;
 }
 img{
-    width: 650px;
+    width: 85%;
+    padding-left: 2%;
 }

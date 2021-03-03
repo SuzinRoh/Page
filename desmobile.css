@@ -41,6 +41,9 @@
     .element-explain{
         padding-right: 10px;padding-left: 10px;
     }
+    h1{
+        font-size: 30px;
+    }
    img{
        width: 350px;
    }
