@@ -107,6 +107,11 @@
     #work{
         margin-top:0px;
     }
+    .work-categories-des,.work-categories-dev{
+        font-size: 13px;top:180px;
+        width: 100%;
+       
+    }
     .work-404{
         width: 100%;
     }
