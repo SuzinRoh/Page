@@ -4,4 +4,4 @@
 > this is my portfolio page  >>> every day up date
 >　
 
-<a href="https://suzinroh.github.io/Page/index.html"> page here</a>
+<a href="https://suzin.dev/index.html"> page here</a>
